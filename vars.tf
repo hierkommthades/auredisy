@@ -1,19 +1,10 @@
-variable "location" {
+
+variable "EASTUS" {
     type = string
-    region = "eastus"
+    description = "Azure location of terraform server environment"
+    default = "eastus"
 }
 
-
-
-
-# variable "tags" {
-#   type = map
-
-#   default = {
-#     Environment = "Terraform GS"
-#     Dept        = "Engineering"
-#   }
-# }
 
 
 variable "tags" {
@@ -24,4 +15,3 @@ variable "tags" {
     Dept        = "Engineering"
   }
 }
-
