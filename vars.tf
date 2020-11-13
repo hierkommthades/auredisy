@@ -6,19 +6,15 @@ variable "location" {
 
 
 
-variable "tags" {
-  type = map
+# variable "tags" {
+#   type = map
 
-  default = {
-    Environment = "Terraform GS"
-    Dept        = "Engineering"
-  }
-}
+#   default = {
+#     Environment = "Terraform GS"
+#     Dept        = "Engineering"
+#   }
+# }
 
-
-
-
-variable "location" {}
 
 variable "tags" {
   type = map
